@@ -303,9 +303,65 @@ h4{
   font-weight: normal;
 }
 
+.left-customers{
+  width: 20%;
+  float: left;
+  padding: 20px
+}
 
+.right-customers{
+  width: 60%;
+  float: right;
+  padding: 60px 0;
+}
 
+.big-num{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
+}
 
+.small-text{
+  font-size: 13px;
+}
 
+.logo-row{
+  margin-right: 50px;
+}
 
-.
+.logo-box{
+  width: 25%;
+  height: 70px;
+  float: right;
+  position: relative;
+}
+
+.logo-box img{
+  width: 110px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-calltoaction{
+  width: 40%;
+  float: left;
+}
+
+.left-calltoaction h2{
+  margin-top: 40px;
+}
+
+.right-model{
+  width: 40%;
+  float: right;
+  position: relative;
+}
+
+.right-model img{
+  width: 75%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
