@@ -7,7 +7,7 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-  color: #2e3d4e;
+  color: #2d3e50;
 }
 
 ul{
@@ -34,6 +34,10 @@ h4{
   text-transform: uppercase;
 }
 
+footer{
+  background-color: #2d3e50;
+}
+
 /* CLASS */
 .clearfix::after{
   content: "";
@@ -49,6 +53,20 @@ h4{
   float: right;
 }
 
+.nav-top li:hover a, .nav-bottom li:hover a, .col-footer ul li a:hover, .language-footer ul li a:hover, .legal ul li a:hover{
+  text-decoration: underline;
+}
+
+.btn.orange:hover{
+  color: #fe785a;
+  background-color: white;
+}
+
+.btn.white:hover{
+  color: white;
+  background-color: #fe785a;
+}
+
 .container{
   width: 75%;
   margin: auto;
@@ -57,7 +75,7 @@ h4{
 .nav-top{
   background-color: #f5f9fd;
   line-height: 80px;
-  border-bottom: 1px solid #2e3d4e;
+  border-bottom: 1px solid #2d3e50;
   position: fixed;
   top: 0;
   left: 0;
@@ -74,7 +92,12 @@ h4{
 .special{
   padding-left: 0;
   line-height: 20px;
-  border-right: 2px solid #2e3d4e;
+  border-right: 2px solid #2d3e50;
+}
+
+.menu-top-right{
+  display: inline-block;
+  padding: 0 10px;
 }
 
 .search{
@@ -144,8 +167,8 @@ h4{
   width: 100%;
   height: 85px;
   background-color: #a1e8df;
-  border-top: 3px solid #2e3d4e;
-  border-bottom: 3px solid #2e3d4e;
+  border-top: 3px solid #2d3e50;
+  border-bottom: 3px solid #2d3e50;
 }
 
 .presentation{
@@ -360,8 +383,109 @@ h4{
 }
 
 .right-model img{
-  width: 75%;
+  width: 70%;
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.col-footer{
+  width: 25%
+}
+
+.col-footer ul li{
+  display: block;
+  padding: 0;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.col-footer ul li a{
+  color: white;
+}
+
+.foot-title{
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.button{
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  color: #2d3e50;
+}
+
+.button:hover{
+  border: 1px solid #fe785a;
+  background-color: #fe785a;
+  color: white;
+}
+
+.lastone{
+  margin-bottom: 20px;
+}
+
+.social{
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.social i{
+  font-size: 15px;
+  color: white;
+}
+
+.social i:hover{
+  color: #fe785a;
+}
+
+.social-ico{
+  width: 15%;
+  text-align: left;
+  display: inline-block;
+}
+
+.language-footer{
+  text-align: center;
+}
+
+.language-footer ul li a{
+  color: white;
+  font-size: 13px;
+  line-height: 50px;
+}
+
+.logo-footer{
+  float: left;
+}
+
+.logo-footer img{
+  margin-top: 20px;
+}
+
+.copy{
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.legal{
+  float: right;
+  text-align: right;
+}
+
+.legal ul li{
+  line-height: 90px;
+}
+
+.legal ul li a{
+  color: white;
+  font-size: 13px;
+  line-height: 50px;
 }
