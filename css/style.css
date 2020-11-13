@@ -1,3 +1,4 @@
+/* TAG */
 *{
   padding: 0;
   margin: 0;
@@ -5,8 +6,8 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
-  color: #2e3d4e
+  font-family: 'Montserrat', sans-serif;
+  color: #2e3d4e;
 }
 
 ul{
@@ -29,6 +30,11 @@ h1{
   padding-top: 40px;
 }
 
+h4{
+  text-transform: uppercase;
+}
+
+/* CLASS */
 .clearfix::after{
   content: "";
   display: table;
@@ -50,19 +56,23 @@ h1{
 
 .nav-top{
   background-color: lightgrey;
-  line-height: 90px;
+  line-height: 80px;
   border-bottom: 1px solid black;
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 1; */
 }
 
 .nav-bottom{
-  padding-top: 90px;
+  /* padding-top: 80px; */
   background-color: white;
   line-height: 80px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .special{
@@ -77,31 +87,36 @@ h1{
 
 .btn{
   padding: 10px;
-  border: 1px solid #fc6348;
+  border: 1px solid #fe785a;
   border-radius: 5px;
 }
 
 .white{
-  color: #fc6348;
+  color: #fe785a;
   background-color: white;
 }
 
 .orange{
   color: white;
-  background-color: #fc6348;
+  background-color: #fe785a;
 }
 
 .large{
   padding: 20px;
 }
 
-.float-left img{
+.full{
+  padding: 20px 50px;
+}
+
+.container.float-left img{
  transform: translateY(50%);
 }
 
 .jumbotron{
   position: relative;
   height: 700px;
+  box-shadow: inset 0 10px 8px rgba(0,0,0,0.1);
   background-image: url(../img/jumbotron.png);
   background-color: #ffeeea;
   background-repeat: no-repeat;
@@ -136,8 +151,69 @@ h1{
   border-bottom: 3px solid black;
 }
 
-.main-block{
+.presentation{
+  background-color: #f2f7fd;
+}
+
+.top{
   width: 100%;
-  height: 800px;
-  background-color: azure;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.top img{
+  width: 30%;
+}
+
+.crm{
+  width: 100%;
+  background-color: white;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.crm .float-left{
+  width: 30%;
+  padding: 60px;
+  text-align: center;
+}
+
+.img-margin{
+  margin-bottom: 40px;
+}
+
+.crm .float-right{
+  width: 70%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 200px;
+  line-height: 25px;
+}
+
+.crm-subtitle{
+  font-size: 13px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.crm .float-right ul li i{
+  font-size: 15px;
+  color: #fe785a;
+}
+
+.line{
+  width: 300px;
+  float: right;
+  margin-top: 12px;
+}
+
+.hub{
+  width: 100%;
+  height: 400px;
+  margin: 20px 0;
+  display: inline-block;
+  background-color: red;
 }
