@@ -463,5 +463,31 @@
         <!-- /CREDITI E LEGAL -->
       </div>
     </footer>
+    <!-- CHAT ICON -->
+    <div class="chat">
+      <a href="#"><i class="fas fa-comments"></i></a>
+    </div>
+    <!-- /CHAT ICON -->
+    <!-- CHAT MESSAGE -->
+    <div class="chat-message">
+      <div class="robot">
+        <img src="https://static.hsappstatic.net/bots-ui-app/ex/bot-avatar.jpg" alt="Robot">
+      </div>
+      <div class="bot-mess">
+        👋 Want to chat about HubSpot? I'm here to help you find your way.
+      </div>
+      <div class="cancel">
+        <a href="#" class="close"><i class="fas fa-times"></i></a>
+      </div>
+    </div>
+    <!-- /CHAT MESSAGE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".close").click(function(){
+        $(".chat-message").remove();
+      });
+    });
+    </script>
   </body>
 </html>
