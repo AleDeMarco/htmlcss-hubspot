@@ -15,14 +15,14 @@ ul{
 }
 
 li{
-  display: inline-block;
-  padding: 0 20px;
   font-size: 20px;
+  padding: 0 20px;
+  display: inline-block;
 }
 
 a{
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 
 h1{
@@ -73,31 +73,31 @@ footer{
 }
 
 .nav-top{
-  background-color: #f5f9fd;
+  width: 100%;
   line-height: 80px;
   border-bottom: 1px solid #2d3e50;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   z-index: 1;
+  background-color: #f5f9fd;
 }
 
 .nav-bottom{
+  line-height: 80px;
   padding-top: 80px;
   background-color: white;
-  line-height: 80px;
 }
 
 .special{
-  padding-left: 0;
   line-height: 20px;
+  padding-left: 0;
   border-right: 2px solid #2d3e50;
 }
 
 .menu-top-right{
-  display: inline-block;
   padding: 0 10px;
+  display: inline-block;
 }
 
 .search{
@@ -106,8 +106,8 @@ footer{
 
 .btn{
   padding: 10px;
-  border: 1px solid #fe785a;
   border-radius: 5px;
+  border: 1px solid #fe785a;
 }
 
 .white{
@@ -133,13 +133,13 @@ footer{
 }
 
 .jumbotron{
-  position: relative;
   height: 700px;
   box-shadow: inset 0 10px 8px rgba(0,0,0,0.1);
+  position: relative;
   background-image: url(../img/jumbotron.png);
-  background-color: #ffeeea;
   background-repeat: no-repeat;
   background-position: right top;
+  background-color: #ffeeea;
 }
 
 .box{
@@ -159,16 +159,16 @@ footer{
 }
 
 .jumbotron::before{
+  width: 100%;
+  height: 85px;
+  border-top: 3px solid #2d3e50;
+  border-bottom: 3px solid #2d3e50;
   position: absolute;
   bottom: 0;
   left: 0;
   content: "";
   display: block;
-  width: 100%;
-  height: 85px;
   background-color: #a1e8df;
-  border-top: 3px solid #2d3e50;
-  border-bottom: 3px solid #2d3e50;
 }
 
 .presentation{
@@ -189,17 +189,17 @@ footer{
 
 .crm{
   width: 100%;
-  background-color: white;
   margin: 20px 0;
-  display: inline-block;
   border-radius: 5px;
   box-shadow: 0px 0px 5px lightgrey;
+  background-color: white;
+  display: inline-block;
 }
 
 .crm .float-left{
   width: 30%;
-  padding: 60px;
   text-align: center;
+  padding: 60px;
 }
 
 .img-margin{
@@ -208,10 +208,10 @@ footer{
 
 .crm .float-right{
   width: 70%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-right: 145px;
   line-height: 25px;
+  padding-top: 60px;
+  padding-right: 145px;
+  padding-bottom: 60px;
 }
 
 .crm-subtitle{
@@ -222,14 +222,14 @@ footer{
 }
 
 .crm .float-right ul li i{
-  font-size: 15px;
   color: #fe785a;
+  font-size: 15px;
 }
 
 .line{
   width: 300px;
-  float: right;
   margin-top: 12px;
+  float: right;
 }
 
 .hub{
@@ -243,9 +243,9 @@ footer{
   width: 30%;
   text-align: center;
   padding: 40px 35px;
-  background-color: white;
   border-radius: 5px;
   box-shadow: 0px 0px 5px lightgrey;
+  background-color: white;
 }
 
 .col:nth-child(2){
@@ -262,9 +262,9 @@ footer{
 }
 
 .list{
-  display: block;
-  padding: 0;
   text-align: left;
+  padding: 0;
+  display: block;
 }
 
 .list:first-child{
@@ -276,8 +276,8 @@ footer{
 }
 
 .list i{
-  font-size: 15px;
   color: #fe785a;
+  font-size: 15px;
 }
 
 .hub-subtitle{
@@ -297,8 +297,8 @@ footer{
 }
 
 .first-row{
-  margin-top: 50px;
   border-bottom: 1px solid white;
+  margin-top: 50px;
 }
 
 .second-row .info-box:last-child{
@@ -307,8 +307,8 @@ footer{
 
 .info-box{
   width: 25%;
-  float: left;
   padding: 20px;
+  float: left;
 }
 
 .info-box:not(.info-box:nth-child(4)):not(.info-box:nth-child(8)){
@@ -321,21 +321,21 @@ footer{
 
 .info-box h2::after{
   content: "+";
-  display: inline-block;
-  vertical-align: middle;
   font-weight: normal;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .left-customers{
   width: 20%;
+  padding: 20px;
   float: left;
-  padding: 20px
 }
 
 .right-customers{
   width: 60%;
-  float: right;
   padding: 60px 0;
+  float: right;
 }
 
 .big-num{
@@ -355,8 +355,8 @@ footer{
 .logo-box{
   width: 25%;
   height: 70px;
-  float: right;
   position: relative;
+  float: right;
 }
 
 .logo-box img{
@@ -378,8 +378,8 @@ footer{
 
 .right-model{
   width: 40%;
-  float: right;
   position: relative;
+  float: right;
 }
 
 .right-model img{
@@ -394,10 +394,10 @@ footer{
 }
 
 .col-footer ul li{
-  display: block;
-  padding: 0;
   font-size: 13px;
   line-height: 30px;
+  padding: 0;
+  display: block;
 }
 
 .col-footer ul li a{
@@ -405,25 +405,25 @@ footer{
 }
 
 .foot-title{
-  color: white;
   font-size: 13px;
   font-weight: bold;
   margin-top: 30px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .button{
-  padding: 5px;
-  border: 1px solid white;
-  border-radius: 5px;
-  background-color: white;
   color: #2d3e50;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
 }
 
 .button:hover{
+  color: white;
   border: 1px solid #fe785a;
   background-color: #fe785a;
-  color: white;
 }
 
 .lastone{
@@ -436,8 +436,8 @@ footer{
 }
 
 .social i{
-  font-size: 15px;
   color: white;
+  font-size: 15px;
 }
 
 .social i:hover{
@@ -456,8 +456,8 @@ footer{
 
 .language-footer ul li a{
   color: white;
-  font-size: 13px;
   line-height: 50px;
+  font-size: 13px;
 }
 
 .logo-footer{
@@ -476,8 +476,8 @@ footer{
 }
 
 .legal{
-  float: right;
   text-align: right;
+  float: right;
 }
 
 .legal ul li{
